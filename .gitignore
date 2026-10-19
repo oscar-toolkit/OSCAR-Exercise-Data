@@ -1,0 +1,7 @@
+# The data is distributed as a release asset (see README.md), not committed
+Phantoms/NCAT Phantoms/*
+Phantoms/CT Reference Data/*
+Phantoms/Texture Recipes/Blends/*
+Setups/*
+!**/.gitkeep
+dist/
