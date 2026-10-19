@@ -16,10 +16,11 @@ data folder. The zip has the same folder layout, so it merges.
 
 ```
 Phantoms/
-  NCAT Phantoms/          NCAT phantoms (.nrb) for the NURBS tab
-  CT Reference Data/      an example CT scan for CT -> Voxelized
-  Texture Recipes/Blends/ blends used by the examples (.texblend)
-Setups/                   example setups (.oscarsetup)
+  NCAT Phantoms/                 five NCAT phantoms (.nrb) for the NURBS tab
+  CT Reference Data/CCR Texture/ two CCR CT scans (CCR1_GE2, CCR1_GE6) for CT -> Voxelized
+  Texture Recipes/Blends/        six single-method blends at the Blend Creator's defaults:
+                                 Perlin, Fractal, Voronoi, Gabor, Gaussian and Wave (4 waves)
+Setups/                          example setups (.oscarsetup)
 ```
 
 ## For maintainers

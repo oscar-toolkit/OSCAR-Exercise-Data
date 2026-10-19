@@ -5,3 +5,4 @@ Phantoms/Texture Recipes/Blends/*
 Setups/*
 !**/.gitkeep
 dist/
+__pycache__/
