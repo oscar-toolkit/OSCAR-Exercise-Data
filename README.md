@@ -15,12 +15,19 @@ data folder. The zip has the same folder layout, so it merges.
 ## What is in it
 
 ```
+Sim Output/                      example simulation results
+Setups/                          example setups (.oscarsetup)
+Materials/                       example materials
 Phantoms/
+  Generated Phantoms/            example generated phantoms
+  Configurations/                example phantom configurations
   NCAT Phantoms/                 five NCAT phantoms (.nrb) for the NURBS tab
   CT Reference Data/CCR Texture/ two CCR CT scans (CCR1_GE2, CCR1_GE6) for CT -> Voxelized
-  Texture Recipes/Blends/        six single-method blends at the Blend Creator's defaults:
+  Texture Recipes/
+    Blends/                      six single-method blends at the Blend Creator's defaults:
                                  Perlin, Fractal, Voronoi, Gabor, Gaussian and Wave (4 waves)
-Setups/                          example setups (.oscarsetup)
+    Fourier Spectra/             example Fourier spectra
+  Custom Phantom Designs/        example analytic phantom designs
 ```
 
 ## For maintainers

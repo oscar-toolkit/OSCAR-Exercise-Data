@@ -3,6 +3,12 @@ Phantoms/NCAT Phantoms/*
 Phantoms/CT Reference Data/*
 Phantoms/Texture Recipes/Blends/*
 Setups/*
+Sim Output/*
+Materials/*
+Phantoms/Generated Phantoms/*
+Phantoms/Configurations/*
+Phantoms/Texture Recipes/Fourier Spectra/*
+Phantoms/Custom Phantom Designs/*
 !**/.gitkeep
 dist/
 __pycache__/
