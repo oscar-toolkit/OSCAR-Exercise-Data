@@ -27,7 +27,7 @@ Phantoms/
     Blends/                      six single-method blends at the Blend Creator's defaults:
                                  Perlin, Fractal, Voronoi, Gabor, Gaussian and Wave (4 waves)
     Fourier Spectra/             example Fourier spectra
-  Custom Phantom Designs/        example analytic phantom designs
+  Custom Phantom Designs/        Smiley.apd, a smiley face with a party hat, made of cylinders, cuts and a cone
 ```
 
 ## For maintainers
