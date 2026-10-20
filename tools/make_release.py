@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-"""Build the OSCAR example data release: OSCAR-Example-Data.zip, its .sha256 and manifest.json.
+"""Build the OSCAR exercise data release: OSCAR-Exercise-Data.zip, its .sha256 and manifest.json.
 
     python tools/make_release.py            (run from the examples folder)
 
 The zip holds everything in this folder except README.md, tools/, dist/ and .git, with the folder layout of the
 OSCAR data folder (Phantoms/..., Setups/...), so extracting it over Documents/OSCAR merges it. Attach the three
-files in dist/ to a GitHub release of the OSCAR-Example-Data repository; OSCAR downloads
-.../releases/latest/download/OSCAR-Example-Data.zip and checks it against the .sha256 file.
+files in dist/ to a GitHub release of the OSCAR-Exercise-Data repository; OSCAR downloads
+.../releases/latest/download/OSCAR-Exercise-Data.zip and checks it against the .sha256 file.
 """
 import hashlib
 import json
@@ -17,7 +17,7 @@ import zipfile
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SKIP_TOP = {"README.md", "tools", "dist", ".git", ".gitignore", ".gitattributes"}
 SKIP_NAMES = {".gitkeep", "Thumbs.db", ".DS_Store"}
-ASSET = "OSCAR-Example-Data.zip"
+ASSET = "OSCAR-Exercise-Data.zip"
 
 
 def files():
